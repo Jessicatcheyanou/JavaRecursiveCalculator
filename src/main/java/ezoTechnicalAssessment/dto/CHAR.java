@@ -1,11 +1,14 @@
 package ezoTechnicalAssessment.dto;
 
-import java.util.Date;
-import java.util.UUID;
+/**
+ * The DTO is the container for Calcutions Data.
+ * The DTO and DAO comprise the Model.
+ *
+ * NB:All components(Model,View, and Controller) can use DTO's
+ */
 
 public class CHAR {
     private String calculator;
-
 
     public CHAR() {
     }
@@ -14,8 +17,6 @@ public class CHAR {
     public String getCalculator() {
         return calculator;
     }
-
-
 
     //SETTER METHODS
     public void setCalculator(String calculator) {

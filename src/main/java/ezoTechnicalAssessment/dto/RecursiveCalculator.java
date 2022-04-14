@@ -1,9 +1,12 @@
 package ezoTechnicalAssessment.dto;
 
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * Implements the calculator's use cases
+ */
 
 public class RecursiveCalculator implements IRecursiveCalculator {
     public static Character[] arrayOfOperators = {'/','*','+','-'};

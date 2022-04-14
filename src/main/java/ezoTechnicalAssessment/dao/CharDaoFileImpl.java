@@ -5,6 +5,13 @@ import ezoTechnicalAssessment.dto.CHAR;
 import java.io.*;
 import java.util.*;
 
+/**
+ * The DAO is responsible for the
+ * persistence and retrieval of calculator
+ * data into and out of files (.txt)
+ * The DAO cannot access the view
+ */
+
 public class CharDaoFileImpl implements CharDao{
     private final List<CHAR> chars = new ArrayList<>();
     public static final String CHAR_FILE = "CALCULATOR.txt";

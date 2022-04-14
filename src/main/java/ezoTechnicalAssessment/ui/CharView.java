@@ -4,6 +4,13 @@ import ezoTechnicalAssessment.dto.*;
 
 import java.util.*;
 
+/**
+ * The View(and it's helper classes) is responsible for all user interaction.
+ * No other component is allowed to interact with the user.
+ * The View cannot access the DAO
+ * i.e it handles UI Logic
+ */
+
 public class CharView {
 
     private final UserIO io;
@@ -32,9 +39,7 @@ public class CharView {
 
         calculate.setCalculator(results);
 
-
         return calculate;
-
     }
 
     public void displayCreateBanner(){
